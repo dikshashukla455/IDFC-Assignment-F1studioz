@@ -1,0 +1,256 @@
+
+@import url('https://fonts.cdnfonts.com/css/gotham-bold');
+
+/************Fonts*******************/
+*{
+    font-family: 'Gotham Bold', sans-serif !important;
+}
+
+:root{
+    --text-color:#1A1A1A;
+    --highlight-text-color:#9B1E26;
+}
+body{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+/************navbar************/
+.sub-navbar{
+    background-color: #F5F5F5;
+    padding:0.5rem 2rem;
+}
+.nav-link{
+    color: var(--text-color) !important;
+    font-weight: 600 !important;
+}
+.nav-item{
+    margin:0 14px;
+}
+.active{
+    margin-left: 0 !important;
+}
+.highlight-nav{
+    color: var(--highlight-text-color) !important;
+    margin: 0 14px;
+}
+.highlight-main{
+    color: var(--highlight-text-color) !important;
+    padding-right: 10px;
+}
+.highlight{
+    color: var(--highlight-text-color) !important;
+}
+.nav-border{
+    border-left: 1px solid #C4C4C4;
+    margin: 14.4px 20px;
+}
+.logo-navbar{
+    padding-block: 0rem !important;
+    border:1px #EDEDED solid;
+}
+.highlight-logo-nav{
+    margin-right:2rem;
+}
+.highlight-login{
+    padding-left: 10px; 
+}
+/****************header****************/
+.main-heading{
+    margin-top: 1rem;
+    color: var(--text-color) !important;
+    font-weight: bolder !important;
+    font-size:42px;
+    line-height: 1.2em;
+}
+.main-heading span{
+    color: #0033A1;
+}
+
+.sub-head{
+    padding-left:0.9rem;
+}
+.man-img{
+   z-index: 10;
+   position:absolute;
+   width:390px;
+   right:29%;
+   top:1%;
+}
+
+
+
+.list-border{
+    border-right: 1px solid var(--highlight-text-color);
+    margin: 0.5rem;
+}
+.list-two{
+    padding-left: 0.6rem;
+}
+.list-three{
+    padding-left: 1rem;
+}
+.item-border{
+    border-right: 1px solid var(--highlight-text-color);
+    height:30px;
+    margin: 0 14px;
+}
+.content{
+    position: relative;
+}
+/*********************payment card***************/
+.img{
+    position: relative;
+}
+.payment-card{
+    display: inline-block;
+    background-color:#DBE4F6;
+    width:404px;
+    border-radius: 0.5rem;
+    z-index:-1;
+    position: absolute;
+    right:6%;
+}
+.main-card-head{
+    background-color:#EEF4FF;
+    padding: 0.8rem;
+    color:#1A1A1A;
+    font-weight:600;
+    font-size:25px;
+    margin:1rem 1rem 0 1rem;
+}
+.main-card-head .content{
+    padding:0;
+    margin:0 0.2rem 0 1.5rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.main-card-head .content{
+    padding:0;
+}
+.main-card-head .time{
+    text-align: center;
+    font-size:58px;
+    margin:0;
+    font-weight: 700;
+    color: var(--highlight-text-color);
+    line-height: 0.5;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    
+}
+.main-card-head .time span{
+    font-size:18px;
+    font-weight:400;
+    text-align: center;
+}
+.card-item{
+margin-left: 2rem;
+}
+.card-item span,.card-content{
+    padding:0 1.2rem;
+}
+
+
+/************buttons*****************/
+.btn-filled{
+    background-color: var(--highlight-text-color);
+    color:white;
+    padding:0.8rem 2.5rem;
+    border-radius: 2rem;
+    border:transparent;
+}
+.btn-unfilled{
+    background-color: transparent;
+    border:transparent;
+    color: var(--highlight-text-color);
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.text-highlight{
+    margin-top:0.5rem;
+    color: var(--highlight-text-color);
+    font-weight: 600;
+}
+.head-para{
+    font-size:16px;
+}
+section#header{
+    border-bottom: #EEEEEE 1px solid;
+    margin: 0 4rem;
+}
+/***********benefits********/
+.btn-benefit{
+    font-size:12px;
+    color: var(--highlight-text-color);
+    border: 2px solid #9B1E26;
+    border-radius:2rem;
+    background-color: transparent;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+.txt-benefit{
+    padding:0 1.5rem;
+}
+
+.logo{
+    padding:0.2rem 0 0 0;
+}
+.benefit-border{
+    border-right:1px solid var(--highlight-text-color) !important;
+    height: 30px;
+}
+.item-two{
+padding: 0 3rem;
+}
+#sub-section{
+    margin-top:18px;
+    margin-bottom: 24px;
+    font-weight: 400 !important;
+}
+/**************cards**************/
+/*.cards,.cards-one{
+    border:1px solid #E2E2E2;
+margin-left: ;
+    border-radius: 0.5rem;
+    padding:1.2rem 0.4rem 0rem 0.5rem;
+    font-size:12px;
+}*/
+.wrapper{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 310px);
+    grid-gap:0.9rem;
+}
+.wrapper > div{
+    justify-self:center;
+    align-self:center;
+    border: 1px solid #E2E2E2;
+    border-radius: 0.5rem;
+}
+/*.cards-one{
+    margin-left:0;
+}*/
+.cards{
+    padding:1.219rem;
+}
+.cards-one{
+    margin:0;
+    border: 1px solid #E2E2E2;
+    padding:1rem 0.9rem 0 0;
+}
+.cards-one img{
+    margin: 5px 5px 0 30px;
+    font-size: 12px;
+}
+.cards p,.cards-one p{
+    margin:0;
+    padding:0;
+    padding-block: 0.5rem;
+    font-size: 18px;
+}
+.cards img{
+    margin: 15px;
+}
+.cards,.cards-one span{
+    font-size: 12px;
+}
+
